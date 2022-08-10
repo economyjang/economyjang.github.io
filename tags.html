@@ -14,12 +14,12 @@
 
     <meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/app/immutable/assets/pages/__layout.svelte-c1a85a33.css">
-	<link rel="stylesheet" href="/app/immutable/assets/pages/index.svelte-1d5c4cee.css">
+	<link rel="stylesheet" href="/app/immutable/assets/pages/tags/index.svelte-6359bf68.css">
 	<link rel="modulepreload" href="/app/immutable/start-76ce0141.js">
 	<link rel="modulepreload" href="/app/immutable/chunks/index-cf3e183d.js">
 	<link rel="modulepreload" href="/app/immutable/pages/__layout.svelte-eba0571b.js">
 	<link rel="modulepreload" href="/app/immutable/chunks/stores-05fa8955.js">
-	<link rel="modulepreload" href="/app/immutable/pages/index.svelte-69ee6bda.js">
+	<link rel="modulepreload" href="/app/immutable/pages/tags/index.svelte-a7f5b6b9.js">
 </head>
 <body>
     
@@ -36,9 +36,9 @@
 
 <header class="svelte-qeeiv0"><nav class="navbar navbar-expand-md navbar-dark bg-dark"><div class="container-fluid"><a class="navbar-brand" href="/">Economy Jang Blog</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent"><ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0"><li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"><ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0"><li class="nav-item"><a class="nav-link " href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link " href="/archives">Archives</a></li>
-                    <li class="nav-item"><a class="nav-link " href="/tags">Tags</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/tags">Tags</a></li>
                     <li class="nav-item"><a class="nav-link " href="/about">About</a></li></ul>
                 <form class="blog-search-form d-flex" method="get" action="/search"><input class="form-control me-2 btn-search-input" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success btn-search-submit svelte-qeeiv0" type="submit">Search</button></form></div></div></nav>
@@ -50,16 +50,18 @@
 
 
 
-<div class="main-index-container svelte-9ypchc"><h3 class="post-count svelte-9ypchc">All Post: <b style="color: #049a5b;">1</b></h3>
+<div class="tags-container svelte-13836jr"><h2 class="tag-count svelte-13836jr">All Tags: <b style="color: #049a5b;">2</b></h2>
 
-    <ul class="post-list svelte-9ypchc"><li class="post-item svelte-9ypchc"><div class="post-item-hovered svelte-9ypchc"><a href="/post/javascript/1" class="svelte-9ypchc"><div class="post-title svelte-9ypchc">Building accessible toggle buttons (with examples for Svelte, Vue, and React)</div>
-                        <div class="post-date svelte-9ypchc"><b>Published: 2022.07.25</b>
-                            <b>Updated: 2022.07.25</b></div>
-                        <div class="post-summary">Toggle buttons might be the biggest missing native HTML element. This post will help you code them right, for all users, in any (or no) framework.</div>
-                    </a></div>
-                <div class="post-tags svelte-9ypchc"><a href="/tags#Javascript" class="svelte-9ypchc"><span class="post-tag svelte-9ypchc">#Javascript</span>
-                        </a><a href="/tags#Svelte" class="svelte-9ypchc"><span class="post-tag svelte-9ypchc">#Svelte</span>
-                        </a></div>
+    <ul class="tag-list svelte-13836jr"><li class="tag-list-item svelte-13836jr"><div class="tag-item svelte-13836jr" id="Javascript">Javascript</div>
+                <div class="post-list svelte-13836jr"><span class="post-item-date svelte-13836jr">2022.07.25</span>
+                        <span class="post-item-hovered svelte-13836jr"><a href="/post/javascript/1" class="svelte-13836jr"><span class="post-title svelte-13836jr">Building accessible toggle buttons (with examples for Svelte, Vue, and React)</span>
+                            </a></span>
+                    </div>
+            </li><li class="tag-list-item svelte-13836jr"><div class="tag-item svelte-13836jr" id="Svelte">Svelte</div>
+                <div class="post-list svelte-13836jr"><span class="post-item-date svelte-13836jr">2022.07.25</span>
+                        <span class="post-item-hovered svelte-13836jr"><a href="/post/javascript/1" class="svelte-13836jr"><span class="post-title svelte-13836jr">Building accessible toggle buttons (with examples for Svelte, Vue, and React)</span>
+                            </a></span>
+                    </div>
             </li></ul>
 </div></main>
 
@@ -67,10 +69,10 @@
 
 
 
-		<script type="module" data-sveltekit-hydrate="hdr2lz">
+		<script type="module" data-sveltekit-hydrate="1d89f5j">
 		import { start } from "/app/immutable/start-76ce0141.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="hdr2lz"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="1d89f5j"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -79,9 +81,9 @@
 			hydrate: {
 				status: 200,
 				error: null,
-				nodes: [0, 4],
+				nodes: [0, 8],
 				params: {},
-				routeId: ""
+				routeId: "tags"
 			}
 		});
 	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/api/posts.json">{"status":200,"statusText":"","headers":{"content-type":"application/json; charset=utf-8"},"body":"[{\"meta\":{\"title\":\"Building accessible toggle buttons (with examples for Svelte, Vue, and React)\",\"published\":\"2022.07.25\",\"updated\":\"2022.07.25\",\"summary\":\"Toggle buttons might be the biggest missing native HTML element. This post will help you code them right, for all users, in any (or no) framework.\",\"tags\":[\"Javascript\",\"Svelte\"],\"index\":[\"#hello_my_first_page\",\"#hello_my_second_page\",\"#hello_my_third_page\"]},\"path\":\"/post/javascript/1\"}]"}</script>

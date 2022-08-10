@@ -1,0 +1,1 @@
+import{S as i,i as r,s as o,t as c,h as l,g as d,n as s,d as h}from"../../chunks/index-cf3e183d.js";function u(a){let t;return{c(){t=c("archives index")},l(e){t=l(e,"archives index")},m(e,n){d(e,t,n)},p:s,i:s,o:s,d(e){e&&h(t)}}}class f extends i{constructor(t){super(),r(this,t,null,u,o,{})}}export{f as default};

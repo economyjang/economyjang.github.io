@@ -1,202 +1,138 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-7071180f.js",
+    "file": "immutable/start-76ce0141.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-08721170.js"
+      "_index-cf3e183d.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       "src/routes/__error.svelte",
       "src/routes/about/index.svelte",
+      "src/routes/archives/index.svelte",
       "src/routes/index.svelte",
       "src/routes/post/index.svelte",
       "src/routes/post/javascript/1.md",
-      "src/routes/post/javascript/2.md",
-      "src/routes/post/javascript/3.md",
-      "src/routes/post/javascript/4.md",
-      "src/routes/post/javascript/5.md",
-      "src/routes/post/tags/[tag].svelte",
       "src/routes/search/index.svelte",
-      "src/routes/study/index.svelte",
+      "src/routes/tags/index.svelte",
       "src/routes/uses.md"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "immutable/pages/__layout.svelte-ed2419f3.js",
+    "file": "immutable/pages/__layout.svelte-eba0571b.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js",
-      "_EconomyJangWiki-logo-ce656e18.js",
-      "_stores-c56a77d9.js"
+      "_index-cf3e183d.js",
+      "_stores-05fa8955.js"
     ],
     "css": [
-      "immutable/assets/pages/__layout.svelte-7a09098e.css"
+      "immutable/assets/pages/__layout.svelte-c1a85a33.css"
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "immutable/pages/__error.svelte-8f440ed0.js",
+    "file": "immutable/pages/__error.svelte-bc2ca78d.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js"
+      "_index-cf3e183d.js"
     ]
   },
   "src/routes/about/index.svelte": {
-    "file": "immutable/pages/about/index.svelte-00a8185c.js",
+    "file": "immutable/pages/about/index.svelte-9b78fc57.js",
     "src": "src/routes/about/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js"
+      "_index-cf3e183d.js"
+    ]
+  },
+  "src/routes/archives/index.svelte": {
+    "file": "immutable/pages/archives/index.svelte-d08e952b.js",
+    "src": "src/routes/archives/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-cf3e183d.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "immutable/pages/index.svelte-5f6df60c.js",
+    "file": "immutable/pages/index.svelte-69ee6bda.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js",
-      "_EconomyJangWiki-logo-ce656e18.js"
+      "_index-cf3e183d.js"
     ],
     "css": [
-      "immutable/assets/pages/index.svelte-8f5f58ee.css"
+      "immutable/assets/pages/index.svelte-1d5c4cee.css"
     ]
   },
   "src/routes/post/index.svelte": {
-    "file": "immutable/pages/post/index.svelte-e2cda183.js",
+    "file": "immutable/pages/post/index.svelte-3002d070.js",
     "src": "src/routes/post/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js"
+      "_index-cf3e183d.js"
     ],
     "css": [
       "immutable/assets/pages/post/index.svelte-28b1aee6.css"
     ]
   },
   "src/routes/post/javascript/1.md": {
-    "file": "immutable/pages/post/javascript/1.md-f82477b6.js",
+    "file": "immutable/pages/post/javascript/1.md-17dcffc3.js",
     "src": "src/routes/post/javascript/1.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js",
-      "__post-f3af2d7f.js",
-      "_stores-c56a77d9.js"
-    ]
-  },
-  "src/routes/post/javascript/2.md": {
-    "file": "immutable/pages/post/javascript/2.md-cd5db224.js",
-    "src": "src/routes/post/javascript/2.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-08721170.js",
-      "__post-f3af2d7f.js",
-      "_stores-c56a77d9.js"
-    ]
-  },
-  "src/routes/post/javascript/3.md": {
-    "file": "immutable/pages/post/javascript/3.md-6f7f46f9.js",
-    "src": "src/routes/post/javascript/3.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-08721170.js",
-      "__post-f3af2d7f.js",
-      "_stores-c56a77d9.js"
-    ]
-  },
-  "src/routes/post/javascript/4.md": {
-    "file": "immutable/pages/post/javascript/4.md-bf65d6b6.js",
-    "src": "src/routes/post/javascript/4.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-08721170.js",
-      "__post-f3af2d7f.js",
-      "_stores-c56a77d9.js"
-    ]
-  },
-  "src/routes/post/javascript/5.md": {
-    "file": "immutable/pages/post/javascript/5.md-f01663ec.js",
-    "src": "src/routes/post/javascript/5.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-08721170.js",
-      "__post-f3af2d7f.js",
-      "_stores-c56a77d9.js"
-    ]
-  },
-  "src/routes/post/tags/[tag].svelte": {
-    "file": "immutable/pages/post/tags/_tag_.svelte-8cf71909.js",
-    "src": "src/routes/post/tags/[tag].svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-08721170.js"
+      "_index-cf3e183d.js",
+      "_stores-05fa8955.js"
     ],
     "css": [
-      "immutable/assets/pages/post/tags/_tag_.svelte-ef8c8cc2.css"
+      "immutable/assets/pages/post/javascript/1.md-b860a47f.css"
     ]
   },
   "src/routes/search/index.svelte": {
-    "file": "immutable/pages/search/index.svelte-22817724.js",
+    "file": "immutable/pages/search/index.svelte-d161de49.js",
     "src": "src/routes/search/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js"
+      "_index-cf3e183d.js"
     ]
   },
-  "src/routes/study/index.svelte": {
-    "file": "immutable/pages/study/index.svelte-e6db0e58.js",
-    "src": "src/routes/study/index.svelte",
+  "src/routes/tags/index.svelte": {
+    "file": "immutable/pages/tags/index.svelte-a7f5b6b9.js",
+    "src": "src/routes/tags/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js"
+      "_index-cf3e183d.js"
+    ],
+    "css": [
+      "immutable/assets/pages/tags/index.svelte-6359bf68.css"
     ]
   },
   "src/routes/uses.md": {
-    "file": "immutable/pages/uses.md-6635adc1.js",
+    "file": "immutable/pages/uses.md-ce5fbf79.js",
     "src": "src/routes/uses.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-08721170.js"
+      "_index-cf3e183d.js"
     ]
   },
-  "_index-08721170.js": {
-    "file": "immutable/chunks/index-08721170.js"
+  "_index-cf3e183d.js": {
+    "file": "immutable/chunks/index-cf3e183d.js"
   },
-  "_EconomyJangWiki-logo-ce656e18.js": {
-    "file": "immutable/chunks/EconomyJangWiki-logo-ce656e18.js",
-    "assets": [
-      "immutable/assets/EconomyJangWiki-logo-a31973c0.png"
-    ]
-  },
-  "_stores-c56a77d9.js": {
-    "file": "immutable/chunks/stores-c56a77d9.js",
+  "_stores-05fa8955.js": {
+    "file": "immutable/chunks/stores-05fa8955.js",
     "imports": [
-      "_index-08721170.js"
-    ]
-  },
-  "__post-f3af2d7f.js": {
-    "file": "immutable/chunks/_post-f3af2d7f.js",
-    "imports": [
-      "_index-08721170.js",
-      "_stores-c56a77d9.js"
-    ],
-    "css": [
-      "immutable/assets/_post-5601e829.css"
+      "_index-cf3e183d.js"
     ]
   }
 }
